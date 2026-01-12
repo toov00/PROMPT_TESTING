@@ -1,0 +1,18 @@
+# Core dependencies
+requests>=2.31.0
+
+# Optional: For testing specific LLM providers
+# Uncomment the ones you need
+
+# OpenAI
+# openai>=1.0.0
+
+# Anthropic
+# anthropic>=0.18.0
+
+# For scheduling automated tests
+# schedule>=1.2.0
+
+# For more advanced detection
+# transformers>=4.30.0
+# torch>=2.0.0
