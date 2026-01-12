@@ -51,13 +51,13 @@ tester.generate_report("security_report.json")
 
 The framework tests 7 categories of prompt injection:
 
-1. **Direct Override** - Explicit instruction manipulation
-2. **Role Playing** - Social engineering via personas
-3. **Delimiter Confusion** - Breaking context boundaries with special characters
-4. **Obfuscation** - Encoding and language tricks
-5. **Context Switching** - Hypothetical scenarios and framing
-6. **Payload Smuggling** - Hiding injections in structured data
-7. **Instruction Repetition** - Overwhelming with repeated requests
+1. **Direct Override**: Explicit instruction manipulation
+2. **Role Playing**: Social engineering via personas
+3. **Delimiter Confusion**: Breaking context boundaries with special characters
+4. **Obfuscation**: Encoding and language tricks
+5. **Context Switching**: Hypothetical scenarios and framing
+6. **Payload Smuggling**: Hiding injections in structured data
+7. **Instruction Repetition**: Overwhelming with repeated requests
 
 ## Detailed Examples
 
@@ -253,7 +253,7 @@ for action in actions:
     tester.generate_report(f"report_{action.replace(' ', '_')}.json")
 ```
 
-## 🛠️ Integration Examples
+## Integration Examples
 
 ### CI/CD Integration
 
